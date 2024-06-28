@@ -1,0 +1,310 @@
+* {
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+html {
+	background-color:#f3f3f3;
+	font-family:"Dejavu Serif";
+	color:#414141;
+}
+
+#container {
+	width:750px;
+	height:630px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#e8e8e8;
+	border:1px solid #adadad;
+	margin-top:20px;
+	overflow:none;
+	position:relative;
+	display:block;
+}
+
+#title {
+	display:block;
+	background-color:white;
+	margin:5px;
+	border:1px solid #adadad;
+}
+
+h1 {
+	font-weight:normal;
+	text-align:center;
+	font-size:40px;
+}
+
+h2 {
+	font-weight:normal;
+	font-size:28px;
+	text-align:center;
+	margin-top:10px;
+}
+
+#worksheet {
+	width:300px;
+	height:405px;
+	background-color:white;
+	margin-left: 5px;
+	margin-bottom:5px;
+	display:inline-block;
+	border:1px solid #adadad;
+}
+
+.alphabetLetter {
+	display:inline-block;
+	font-size:34px;
+	margin:5px;
+	cursor:pointer;
+}
+
+#alphabet {
+	text-align:justify;
+	margin:5px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#alphabetCenter {
+	display:inline-block;
+	margin-left:45px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#vowels {
+	text-align:center;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+input {
+	border:1px solid #adadad;
+	width:105px;
+	height:35px;
+	font-size:20px;
+	font-family:"Dejavu Serif";
+	color:#414141;
+	text-align:center;
+}
+
+#unscrambler {
+	margin-right:20px;
+}
+
+form {
+	text-align:center;
+	margin-bottom:10px;
+	margin-top:5px;
+}
+
+#scoreTable {
+	height:405px;
+	width:430px;
+	border:1px solid #adadad;
+	margin-right:5px;
+	margin-bottom:5px;
+	display:inline-block;
+	background-color:white;
+	float:right;
+	font-family:"DejaVu Serif";
+	font-size:18px;
+}
+
+#scoreTableHeaders {
+	width:430px;
+	text-align:left;
+	border-bottom:1px solid #adadad;
+	margin:0;
+	float:left;
+}
+
+#turnSpace {
+	width:65px;
+	display:inline-block;
+	float:left;
+	border-right:1px solid #adadad;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+#yourWordSpace {
+	width:140px;
+	display:inline-block;
+	float:left;
+	border-right:1px solid #adadad;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+#oppWordSpace {
+	width:223px;
+	display:inline-block;
+	float:left;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+h3 {
+	font-weight:normal;
+	text-align:center;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+#turn {
+	height:360px;
+	width:65px;
+	float:left;
+	border-right:1px solid #adadad;
+	text-align:center;
+}
+
+#yourWords {
+	height:360px;
+	width:140px;
+	float:left;
+	border-right:1px solid #adadad;
+}
+
+#opponentWords {
+	height:360px;
+	width:223px;
+	float:left;
+	overflow: auto;
+}
+
+#options {
+	width:300px;
+	height:150px;
+	background-color:white;
+	border:1px solid #adadad;
+	text-align:center;
+	margin-left:5px;
+	margin-bottom:5px;
+	float:left;
+	display:inline-block;
+}
+
+.button {
+	height:35px;
+	width:90px;
+	border:1px solid #adadad;
+	background-color:white;
+	display:inline-block;
+	margin-top:20px;
+	cursor:pointer;
+	position:relative;
+}
+
+.button:hover {
+	background-color:#e8e8e8;
+}
+
+.buttonW {
+	font-size:18px;
+	text-align:center;
+	padding-top:6px;
+}
+
+#reset {
+	margin-left:20px;
+}
+
+#askWord {
+	margin-right:5px;
+	width:430px;
+	height:150px;
+	background-color:white;
+	border:1px solid #adadad;
+	float:right;
+	text-align:center;
+	display:inline-block;
+	position:relative;
+}
+
+#result {
+	display:inline-block;
+	margin-top:20px;
+}
+
+#submit {
+	position:relative;
+	top:-2px;
+	margin-left:20px;
+}
+
+#footer {
+	width:252px;
+	background-color:#e8e8e8;
+	display:block;
+	border:1px solid #adadad;
+	margin-top:5px;
+	margin-right:auto;
+	margin-left: auto;
+}
+
+footer {
+	height:25px;
+	width:240px;
+	background-color:white;
+	border:1px solid #adadad;
+	text-align:center;
+	padding-top:6px;
+	margin:5px;
+}
+
+#copywrite {
+	font-size:16px;
+}
+
+#yesQ {
+	display:inline-block;
+	border:1px solid #adadad;
+	height:30px;
+	width:50px;
+	margin-left:40px;
+	border-radius:1px;
+	cursor:pointer;
+	padding-top:8px;
+	text-align: center;	
+}
+
+#yesQ:hover {
+	background-color:#e8e8e8;
+}
+
+#noQ {
+	display:inline-block;
+	border:1px solid #adadad;
+	height:30px;
+	width:50px;
+	margin-left:40px;
+	border-radius:1px;
+	cursor:pointer;
+	padding-top:8px;
+	text-align: center;	
+}
+
+#noQ:hover {
+	background-color:#e8e8e8;
+}
+
+#winQuestion {
+	text-align: center;
+	margin-bottom: 5px;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="eng">
+	<head>
+		<title>Word Master</title>
+		<link rel="stylesheet" type="text/css" href="wordMasterStylev3.css"/>
+		<script src="jquery.min.js">
+		</script>
+		<script src="rgb_API.js">
+		</script>
+		<script src="wordMasterHard.js"></script> <!--change to tutorial?-->
+		<!--<script src="wordMasterMenu.js"></script>-->
+	</head>
+	<body>
+		<div id="container">
+			<div id="title">
+				<h1>Word Master</h1>
+			</div>
+			<div id="worksheet">
+				<h2>Worksheet</h2>
+				<div id="alphabet">
+					<p class="alphabetLetter">A</p>
+					<p class="alphabetLetter">B</p>
+					<p class="alphabetLetter">C</p>
+					<p class="alphabetLetter">D</p>
+					<p class="alphabetLetter">E</p>
+					<p class="alphabetLetter">F</p>
+					<p class="alphabetLetter">G</p>
+					<p class="alphabetLetter">H</p>
+					<p class="alphabetLetter">I</p>
+					<p class="alphabetLetter">J</p>
+					<p class="alphabetLetter">K</p>
+					<p class="alphabetLetter">L</p>
+					<p class="alphabetLetter">M</p>
+					<p class="alphabetLetter">N</p>
+					<p class="alphabetLetter">O</p>
+					<p class="alphabetLetter">P</p>
+					<p class="alphabetLetter">Q</p>
+					<p class="alphabetLetter">R</p>
+					<p class="alphabetLetter">S</p>
+					<p class="alphabetLetter">T</p>
+					<p class="alphabetLetter">U</p>
+					<div id="alphabetCenter">
+						<p class="alphabetLetter">V</p>
+						<p class="alphabetLetter">W</p>
+						<p class="alphabetLetter">X</p>
+						<p class="alphabetLetter">Y</p>
+						<p class="alphabetLetter">Z</p>
+					</div>
+				</div>
+				<h2 id="vowelH">Vowels</h2>
+				<div id="vowels">
+					<p class="alphabetLetter" id="a">A</p>
+					<p class="alphabetLetter" id="e">E</p>
+					<p class="alphabetLetter" id="i">I</p>
+					<p class="alphabetLetter" id="o">O</p>
+					<p class="alphabetLetter" id="u">U</p>
+					<p class="alphabetLetter" id="y">Y</p>
+				</div>
+				<form>
+					<input type="text" size="7" maxlength="5" id="unscrambler">
+					<input type="text" size="7" maxlength="5">
+				</form>
+			</div>
+			<div id="scoreTable">
+				<div id="scoreTableHeaders">
+					<div id="turnSpace">
+						<h3 id="turnH">Turn</h3>
+					</div>
+					<div id="yourWordSpace">
+						<h3 id="yourWordH">Your Words</h3>
+					</div>
+					<div id="oppWordSpace">
+						<h3 id="oppWordH">Opponent's Words</h3>
+					</div>
+				</div>
+				<div id="data">
+					<div id="turn"></div>
+					<div id="yourWords"></div>
+					<div id="opponentWords"></div>
+				</div>
+			</div>
+			<div id="options">
+				<h2>Options</h2>
+				<div class="button" id="menu">
+					<p class="buttonW">Menu</p>
+				</div>
+				<div class="button" id="reset">
+					<p class="buttonW">Reset</p>
+				</div>
+			</div>
+			<div id="askWord">
+				<h2>Ask A Word</h2>
+				<form name="result" id="result">
+					<input type="text" name="word" size="7" maxlength="5" id="getWord">
+					<!--Default Value "Insert Word Here"-->
+				</form>
+				<div class="button" id="submit">
+					<p class="buttonW">Submit</p>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<footer>
+				<p id="copywrite">Created by: Thomas Nocera</p>
+			</footer>
+		</div>
+	</body>
+</html>
